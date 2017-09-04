@@ -7,7 +7,7 @@ class Connexion extends React.Component {
         //Get the login
         const pseudo = this.boxInput.value;
         //Changing URL
-        this.context.router.transitionTo(`/box/${pseudo}`);
+        this.context.router.transitionTo(`/myRecipeBox/box/${pseudo}`);
     }
 
     render(){
