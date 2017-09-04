@@ -15,7 +15,7 @@ const Root = () => {
         <BrowserRouter>
             <div>
                 <Match exactly pattern="/myRecipeBox/" component={ Connexion } />
-                <Match pattern="/box/:pseudo" component={App} />
+                <Match pattern="/myRecipeBox/box/:pseudo" component={App} />
                 <Miss component={NotFound} />
             </div>
         </BrowserRouter>
